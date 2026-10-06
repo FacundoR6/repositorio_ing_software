@@ -59,7 +59,7 @@ if (!empty($_POST['btniniciarsesion'])) {
                 <input type="password" name="contraseña" placeholder="Contraseña" required>
             </div>
             <br> 
-            <a href="./registrarse.php">¿No tienes cuenta? Regístrate</a>
+            <a href="./registrarse.php">¿tienes cuenta? Regístrate</a>
             <input name="btniniciarsesion" type="submit" id="btnLogearse" value="Iniciar Sesión">
         </form>
         
