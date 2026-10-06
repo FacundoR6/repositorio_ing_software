@@ -64,7 +64,24 @@ if (!empty($_POST['btniniciarsesion'])) {
         </form>
         
     </div>
-
+    <h2>Creo otro formulario de login</h2>
+    
+    <div class="formLogin">
+        <h3>Bienvenido | Punto Padel</h3>
+        <form action="./login.php" method="post">
+                <div class="LoginInput">
+                 <input type="text" name="usuario" placeholder="Nombre de Usuario" required>
+            </div>
+            <div class="LoginInput">
+                <input type="password" name="contraseña" placeholder="Contraseña" required>
+            </div>
+            <br> 
+            <a href="./registrarse.php">¿tienes cuenta? Regístrate</a>
+            <input name="btniniciarsesion" type="submit" id="btnLogearse" value="Iniciar Sesión">
+        </form>
+        
+    </div>
+    
 </body>
 </html>
 
